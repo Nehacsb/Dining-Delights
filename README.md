@@ -12,15 +12,12 @@ http://127.0.0.1:3000/index.html
 
 Users can browse through different cuisines, each represented by visually appealing cards.
 
-<br>
 #### Dish Details: 
 Detailed information for each dish, including images, descriptions, and prices.
 
-<br>
 
 #### Specials Section: 
 Animated display of today's special dishes.
-<br>
 
 ### Order Management
 
