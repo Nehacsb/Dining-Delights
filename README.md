@@ -2,7 +2,6 @@
 Restaurant menu web application
 <br>
 To view the website 
-http://127.0.0.1:3000/index.html
 ## Features:
 
 ### Menu Management

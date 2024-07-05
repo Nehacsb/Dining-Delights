@@ -41,7 +41,7 @@ async function cuisines() {
         // element < a href="\Cards\Greek/">Greek/</a>
 
 
-        if (element.href.includes('/Cards')) {
+        if (element.href.includes('/Cards') ) {
             let folder = element.href.split("/").slice(-2)[0]
             //we get[Ggreek',''] hence [0]th index
 
