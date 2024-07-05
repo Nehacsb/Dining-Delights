@@ -1,0 +1,394 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+body {
+    background-image: url('/Images/one.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.8; 
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+.container{
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 3px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    
+}
+.flex {
+    display: flex;
+    gap: 2px;
+}
+
+.left {
+   
+    width: 30vw;
+    /* border: solid red; */
+    /* background-color: rgba(0, 0, 0, 0.2); */
+}
+.welcome{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    margin-right: 4px;
+    height: 25%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.info{
+    /* border: 2px solid green; */
+    height: 70%;
+    margin: 5px;
+    padding: 2px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+ /* parent of special and curren_item is info  */
+.special{
+    background-color: rgb(0 0 0 / 35%);
+    color: white;
+    border-radius: 6px;
+    height: 193px;
+    margin: 10px;
+    
+
+}
+.current_items {
+    background-color: rgb(0 0 0 / 35%);
+    color: white;
+    border-radius: 6px;
+    padding: 10px;
+    margin : 10px;
+    height: 180px;
+    overflow-y: auto;
+    position: relative;
+} 
+
+.heading{
+    margin-left:13px;
+    padding: 3px;
+}
+
+.item_name{
+    width:131px;
+}
+.current_items ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.current_items li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.right {
+    width: 70vw;
+    /* border: 2px solid red; */
+    /* background-color: rgba(0, 0, 0, 0.2); */
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.34);
+    margin-left: 22px;
+    margin-right: 21px;
+     
+}
+
+/* every element in header which is nav div and accounts div */
+.header>* {
+    padding: 4px;
+    margin-top: 6px;
+}
+
+/* signup and login  */
+.accounts>* {
+    margin: 0 8px;
+}
+
+/* signup button  */
+.signup {
+    background-color: rgb(0 0 0 / 35%);
+    color: white;
+    border-radius: 12px;
+    padding: 9px;
+    width: 79px;
+    /* border: none; */
+    /* outline: none; */
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.signup:hover {
+    font-size: 17px;
+    /* color: white */
+}
+
+/* login button  */
+.login {
+    background-color: rgb(0 0 0 / 35%);
+    border-radius: 12px;
+    color: white;
+    padding: 9px;
+    width: 79px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.login:hover {
+    font-size: 17px;
+}
+
+.make_round {
+    border-radius: 8px;
+}
+
+.Menu_box {
+    padding: 4px;
+    min-height: 85vh;
+
+}
+
+.all_cards {
+    margin: 21px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    max-height: 85vh;
+    transition: opacity 0.3s ease;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0.34);
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+     
+}
+.Backbtn{
+    width: 90px;
+}
+
+.card img {
+    /* width: 100%; */
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+
+
+/* For Webkit browsers (e.g., Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 10px;
+    
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.34);
+    height: auto;
+    border-radius: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.menu_items {
+    margin: 18px;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns, each taking up 1 fraction of the available space */
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    overflow-y: auto;
+    max-height: 85vh;
+
+    
+}
+
+.menu_item {
+    padding: 4px;
+    border-radius: 12px;
+    background-color: rgb(0 0 0 / 35%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 96px;
+}
+
+.menu_item  img{
+    margin-left: 4px;
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.menu_info {
+    padding: 9px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 96px;
+    gap: 3px;
+
+}
+.back_button {
+    width: 43px;
+    padding: 5px;
+    margin: 0 8px;
+    padding-top: 6px;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* border: none; */
+    border-radius: 29px;
+    cursor: pointer;
+    margin-left: 24px;
+}
+.back_button:hover {
+    background-color: rgba(0, 0, 0, 0.54);
+}
+
+
+
+.menu_content{
+    width: 122px;
+    justify-content: space-around;
+    display: flex;
+    gap: 4px;
+
+}
+.our_details ul{
+    list-style: none;
+}
+ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav_bar{
+    padding: 7px;
+    width: 550px;
+    /* border: 2px solid black; */
+    justify-content: space-between;
+}
+.text{
+    font-size: large;
+}
+
+
+
+.add_button {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 12px;
+    padding: 5px;
+    width: 79px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.quantity_controls{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 12px;
+    padding: 5px;
+    width: 79px;
+    cursor: pointer;
+    font-size: 16px;
+    justify-content: space-around;
+}
+
+.decrease_button{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fffbff;
+    border-radius: 6px;
+    padding: 5px;
+    width: 25px;
+    cursor: pointer;
+    height: 27px;
+    font-size: 12px;
+}
+
+.increase_button{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fffbff;
+    border-radius: 6px;
+    padding: 5px;
+    width: 25px;
+    cursor: pointer;
+    height: 27px;
+    font-size: 12px;
+}
+
+.welcome h3{
+    font-size: larger;
+
+}
+
+.total_cost {
+    margin-top: 10px;
+    font-weight: bold;
+    margin-left: 24px;
+}
+.special_item{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    justify-content: space-around;
+    align-items: center;
+    padding: 18px;
+}
+.special_item img{
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 10px;
+   
+    
+}
+.special h3{
+    padding:10px;
+}
+.special p{
+    padding: 15px;
+    font-size: large;
+}
+.special_item.active {
+    opacity: 1;
+}
+.specialFoods{
+    position: relative;
+    height: 200px; /* Adjust as needed */
+    overflow: hidden;
+}
