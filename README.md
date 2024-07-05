@@ -1,7 +1,7 @@
 # Dining-Delights
 Restaurant menu web application
 <br>
-To view the website 
+To view the website: https://delishdelights.freewebhostmost.com/
 ## Features:
 
 ### Menu Management
@@ -33,3 +33,6 @@ Automatic calculation and display of the total cost of the selected items.
 
 #### Back Button: 
 Easy navigation back to the main cuisine selection
+
+<br>
+Improments are being made to make the website responsive to mobile devices. 
