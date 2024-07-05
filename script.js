@@ -62,7 +62,7 @@ async function cuisines() {
 
             card.innerHTML = `
                 <img src="/Cards/${folder}/${folder}_cuisine.avif" alt="">
-                <div>${response.title}</div>
+                <div class="name_cuisine">${response.title}</div>
                 <div>${response.description}</div>
             `;
             card.addEventListener('click', () => displayMenuItems(folder));

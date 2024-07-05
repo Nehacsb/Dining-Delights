@@ -1,0 +1,20 @@
+{
+    "title": "Mexican",
+    "description": "Explore the vibrant and zesty flavors of Mexican cuisine.",
+    "items": [
+        {"name": "Tacos", "price": "₹700", "image": "Images/Tacos.jpg"},
+        {"name": "Guacamole", "price": "₹560", "image": "Images/Guacamole.jpg"},
+        {"name": "Enchiladas", "price": "₹840", "image": "Images/Enchiladas.jpg"},
+        {"name": "Quesadillas", "price": "₹630", "image": "Images/Quesadillas.jpg"},
+        {"name": "Chiles Rellenos", "price": "₹910", "image": "Images/Chiles Rellenos.jpg"},
+        {"name": "Burritos", "price": "₹770", "image": "Images/Burritos.jpg"},
+        {"name": "Fajitas", "price": "₹1050", "image": "Images/Fajitas.jpg"},
+        {"name": "Tamales", "price": "₹630", "image": "Images/Tamales.jpg"},
+        {"name": "Nachos", "price": "₹560", "image": "Images/Nachos.jpg"},
+        {"name": "Pozole", "price": "₹840", "image": "Images/Pozole.jpg"},
+        {"name": "Sopa de Tortilla", "price": "₹490", "image": "Images/Sopa de Tortilla.jpg"},
+        {"name": "Elote", "price": "₹350", "image": "Images/Elote.jpg"},
+        {"name": "Tostadas", "price": "₹700", "image": "Images/Tostadas.jpg"},
+        {"name": "Churros", "price": "₹420", "image": "Images/Churros.jpg"}
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "title": "Beverages",
+    "description": "Quench your thirst with our selection of refreshing drinks, from classic beverages to exotic concoctions.",
+    "items": [
+        {"name": "Mango Lassi", "price": "₹350", "image": "Images/Mango Lassi.jpg"},
+        {"name": "Masala Chai", "price": "₹280", "image": "Images/Masala Chai.jpg"},
+        {"name": "Iced Coffee", "price": "₹280", "image": "Images/Iced Coffee.jpg"},
+        {"name": "Lemonade", "price": "₹210", "image": "Images/Lemonade.jpg"},
+        {"name": "Green Tea", "price": "₹210", "image": "Images/Green Tea.jpg"},
+        {"name": "Coconut Water", "price": "₹280", "image": "Images/Coconut Water.jpg"},
+        {"name": "Smoothie", "price": "₹420", "image": "Images/Smoothie.jpg"},
+        {"name": "Soft Drink", "price": "₹140", "image": "Images/Soft Drink.jpg"},
+        {"name": "Milkshake", "price": "₹350", "image": "Images/Milkshake.jpg"},
+        {"name": "Herbal Tea", "price": "₹280", "image": "Images/Herbal Tea.jpg"},
+        {"name": "Hot Chocolate", "price": "₹280", "image": "Images/Hot Chocolate.jpg"},
+        {"name": "Mocktail", "price": "₹420", "image": "Images/Mocktail.jpg"},
+        {"name": "Orange Juice", "price": "₹210", "image": "Images/Orange Juice.jpg"},
+        {"name": "Cappuccino", "price": "₹210", "image": "Images/Cappuccino.jpg"}
+    ]
+}

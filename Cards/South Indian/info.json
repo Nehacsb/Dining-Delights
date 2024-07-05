@@ -1,0 +1,20 @@
+{
+    "title": "South Indian",
+    "description": "Delight in the rich and diverse flavors of South Indian cuisine.",
+    "items": [
+        {"name": "Dosa", "price": "₹560", "image": "Images/Dosa.jpg"},
+        {"name": "Idli", "price": "₹490", "image": "Images/Idli.jpg"},
+        {"name": "Sambar", "price": "₹420", "image": "Images/Sambar.jpg"},
+        {"name": "Vada", "price": "₹350", "image": "Images/Vada.jpg"},
+        {"name": "Uttapam", "price": "₹630", "image": "Images/Uttapam.jpg"},
+        {"name": "Pongal", "price": "₹490", "image": "Images/Pongal.jpg"},
+        {"name": "Rasam", "price": "₹350", "image": "Images/Rasam.jpg"},
+        {"name": "Puliyogare", "price": "₹560", "image": "Images/Puliyogare.jpg"},
+        {"name": "Appam", "price": "₹490", "image": "Images/Appam.jpg"},
+        {"name": "Bisi Bele Bath", "price": "₹700", "image": "Images/Bisi Bele Bath.jpg"},
+        {"name": "Pesarattu", "price": "₹560", "image": "Images/Pesarattu.jpg"},
+        {"name": "Avial", "price": "₹630", "image": "Images/Avial.jpg"},
+        {"name": "Chettinad Chicken", "price": "₹840", "image": "Images/Chettinad Chicken.jpg"},
+        {"name": "Payasam", "price": "₹420", "image": "Images/Payasam.jpg"}
+    ]
+}

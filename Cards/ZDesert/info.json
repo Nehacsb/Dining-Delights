@@ -1,0 +1,20 @@
+{
+    "title": "Desserts",
+    "description": "Indulge your sweet tooth with our delightful assortment of desserts.",
+    "items": [
+        {"name": "Chocolate Cake", "price": "₹420", "image": "Images/Chocolate Cake.jpg"},
+        {"name": "Cheesecake", "price": "₹490", "image": "Images/Cheesecake.jpg"},
+        {"name": "Brownies", "price": "₹350", "image": "Images/Brownies.jpg"},
+        {"name": "Ice Cream", "price": "₹280", "image": "Images/Ice Cream.jpg"},
+        {"name": "Fruit Tart", "price": "₹420", "image": "Images/Fruit Tart.jpg"},
+        {"name": "Chocolate Mousse", "price": "₹420", "image": "Images/Chocolate Mousse.jpg"},
+        {"name": "Apple Strudel", "price": "₹420", "image": "Images/Apple Strudel.jpg"},
+        {"name": "Creme Brulee", "price": "₹490", "image": "Images/Creme Brulee.jpg"},
+        {"name": "Apple Pie", "price": "₹420", "image": "Images/Apple Pie.jpg"},
+        {"name": "Macarons", "price": "₹630", "image": "Images/Macarons.jpg"},
+        {"name": "Eclairs", "price": "₹490", "image": "Images/Eclairs.jpg"},
+        {"name": "Pavlova", "price": "₹560", "image": "Images/Pavlova.jpg"},
+        {"name": "Cannoli", "price": "₹420", "image": "Images/Cannoli.jpg"},
+        {"name": "Baklava", "price": "₹490", "image": "Images/Baklava.jpg"}
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "title": "Italian",
+    "description": "Savor the taste of Italy with our classic and contemporary dishes.",
+    "items": [
+        {"name": "Margherita Pizza", "price": "₹840", "image": "Images/Margherita Pizza.jpg"},
+        {"name": "Spaghetti Carbonara", "price": "₹980", "image": "Images/Spaghetti Carbonara.jpg"},
+        {"name": "Lasagna", "price": "₹1120", "image": "Images/Lasagna.jpg"},
+        {"name": "Risotto", "price": "₹1050", "image": "Images/Risotto.jpg"},
+        {"name": "Caprese Salad", "price": "₹700", "image": "Images/Caprese Salad.jpg"},
+        {"name": "Bruschetta", "price": "₹560", "image": "Images/Bruschetta.jpg"},
+        {"name": "Fettuccine Alfredo", "price": "₹910", "image": "Images/Fettuccine Alfredo.jpg"},
+        {"name": "Osso Buco", "price": "₹1260", "image": "Images/Osso Buco.jpg"},
+        {"name": "Panna Cotta", "price": "₹490", "image": "Images/Panna Cotta.jpg"},
+        {"name": "Tiramisu", "price": "₹560", "image": "Images/Tiramisu.jpg"},
+        {"name": "Gnocchi", "price": "₹840", "image": "Images/Gnocchi.jpg"},
+        {"name": "Arancini", "price": "₹630", "image": "Images/Arancini.jpg"},
+        {"name": "Minestrone Soup", "price": "₹560", "image": "Images/Minestrone Soup.jpg"},
+        {"name": "Gelato", "price": "₹420", "image": "Images/Gelato.jpg"}
+    ]
+}

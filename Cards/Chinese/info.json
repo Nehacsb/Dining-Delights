@@ -1,0 +1,20 @@
+{
+    "title": "Chinese",
+    "description": "Discover the rich and diverse flavors of traditional Chinese cuisine.", 
+    "items": [
+        {"name": "Kung Pao Chicken", "price": "₹980", "image": "Images/Kung Pao Chicken.jpg"},
+        {"name": "Sweet and Sour Pork", "price": "₹910", "image": "Images/Sweet and Sour Pork.jpg"},
+        {"name": "Peking Duck", "price": "₹1260", "image": "Images/Peking Duck.jpg"},
+        {"name": "Dim Sum", "price": "₹700", "image": "Images/Dim Sum.jpg"},
+        {"name": "Ma Po Tofu", "price": "₹840", "image": "Images/Ma Po Tofu.jpg"},
+        {"name": "Spring Rolls", "price": "₹560", "image": "Images/Spring Rolls.jpg"},
+        {"name": "Chow Mein", "price": "₹770", "image": "Images/Chow Mein.jpg"},
+        {"name": "Hot and Sour Soup", "price": "₹490", "image": "Images/Hot and Sour Soup.jpg"},
+        {"name": "Chinese Hot Pot", "price": "₹1050", "image": "Images/Chinese Hot Pot.jpg"},
+        {"name": "Fried Rice", "price": "₹630", "image": "Images/Fried Rice.jpg"},
+        {"name": "Egg Foo Young", "price": "₹840", "image": "Images/Egg Foo Young.jpg"},
+        {"name": "Wonton Soup", "price": "₹560", "image": "Images/Wonton Soup.jpg"},
+        {"name": "Szechuan Shrimp", "price": "₹1120", "image": "Images/Szechuan Shrimp.jpg"},
+        {"name": "General Tso's Chicken", "price": "₹980", "image": "Images/General Tso's Chicken.jpg"}
+    ]
+}

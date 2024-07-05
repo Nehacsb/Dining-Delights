@@ -43,6 +43,7 @@ body {
     margin-right: 4px;
     height: 25%;
     color: white;
+    gap: 14px;
     background-color: rgba(0, 0, 0, 0.2);
 }
 .info{
@@ -188,6 +189,9 @@ body {
     cursor: pointer;
     transition: all 1s ease-in-out;
      
+}
+.name_cuisine{
+    font-size: large;
 }
 .Backbtn{
     width: 90px;

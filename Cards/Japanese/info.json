@@ -1,0 +1,20 @@
+{
+    "title": "Japanese",
+    "description": "Experience the delicate and refined flavors of Japanese cuisine.",
+    "items": [
+        {"name": "Sushi Platter", "price": "₹1260", "image": "Images/Sushi Platter.jpg"},
+        {"name": "Ramen", "price": "₹980", "image": "Images/Ramen.jpg"},
+        {"name": "Tempura", "price": "₹910", "image": "Images/Tempura.jpg"},
+        {"name": "Teriyaki Chicken", "price": "₹1050", "image": "Images/Teriyaki Chicken.jpg"},
+        {"name": "Udon", "price": "₹840", "image": "Images/Udon.jpg"},
+        {"name": "Miso Soup", "price": "₹420", "image": "Images/Miso Soup.jpg"},
+        {"name": "Sashimi", "price": "₹1120", "image": "Images/Sashimi.jpg"},
+        {"name": "Gyoza", "price": "₹560", "image": "Images/Gyoza.jpg"},
+        {"name": "Katsu Curry", "price": "₹980", "image": "Images/Katsu Curry.jpg"},
+        {"name": "Takoyaki", "price": "₹700", "image": "Images/Takoyaki.jpg"},
+        {"name": "Okonomiyaki", "price": "₹840", "image": "Images/Okonomiyaki.jpg"},
+        {"name": "Yakitori", "price": "₹770", "image": "Images/Yakitori.jpg"},
+        {"name": "Onigiri", "price": "₹490", "image": "Images/Onigiri.jpg"},
+        {"name": "Mochi", "price": "₹420", "image": "Images/Mochi.jpg"}
+    ]
+}

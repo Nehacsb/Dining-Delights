@@ -1,0 +1,20 @@
+{
+    "title": "Korean",
+    "description": "Delve into the bold and spicy flavors of Korean cuisine.",
+    "items": [
+        {"name": "Bibimbap", "price": "₹980", "image": "Images/Bibimbap.jpg"},
+        {"name": "Kimchi", "price": "₹420", "image": "Images/Kimchi.jpg"},
+        {"name": "Bulgogi", "price": "₹1120", "image": "Images/Bulgogi.jpg"},
+        {"name": "Japchae", "price": "₹840", "image": "Images/Japchae.jpg"},
+        {"name": "Tteokbokki", "price": "₹700", "image": "Images/Tteokbokki.jpg"},
+        {"name": "Kimchi Jjigae", "price": "₹910", "image": "Images/Kimchi Jjigae.jpg"},
+        {"name": "Samgyeopsal", "price": "₹1260", "image": "Images/Samgyeopsal.jpg"},
+        {"name": "Haemul Pajeon", "price": "₹980", "image": "Images/Haemul Pajeon.jpg"},
+        {"name": "Sundubu Jjigae", "price": "₹910", "image": "Images/Sundubu Jjigae.jpg"},
+        {"name": "Kimbap", "price": "₹630", "image": "Images/Kimbap.jpg"},
+        {"name": "Dakgalbi", "price": "₹1050", "image": "Images/Dakgalbi.jpg"},
+        {"name": "Galbi", "price": "₹1260", "image": "Images/Galbi.jpg"},
+        {"name": "Banchan", "price": "₹560", "image": "Images/Banchan.jpg"},
+        {"name": "Hotteok", "price": "₹490", "image": "Images/Hotteok.jpg"}
+    ]
+}

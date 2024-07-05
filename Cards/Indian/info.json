@@ -1,0 +1,20 @@
+{
+    "title": "Indian",
+    "description": "Discover the vibrant and aromatic flavors of traditional Indian cuisine .",
+    "items": [
+        {"name": "Butter Chicken", "price": "₹1120", "image": "Images/Butter Chicken.jpg"},
+        {"name": "Chicken Tikka Masala", "price": "₹1050", "image": "Images/Chicken Tikka Masala.jpg"},
+        {"name": "Palak Paneer", "price": "₹910", "image": "Images/Palak Paneer.jpg"},
+        {"name": "Rogan Josh", "price": "₹1260", "image": "Images/Rogan Josh.jpg"},
+        {"name": "Chole Bhature", "price": "₹840", "image": "Images/Chole Bhature.jpg"},
+        {"name": "Biryani", "price": "₹980", "image": "Images/Biryani.jpg"},
+        {"name": "Samosa", "price": "₹490", "image": "Images/Samosa.jpg"},
+        {"name": "Paneer Butter Masala", "price": "₹980", "image": "Images/Paneer Butter Masala.jpg"},
+        {"name": "Dal Makhani", "price": "₹770", "image": "Images/Dal Makhani.jpg"},
+        {"name": "Tandoori Chicken", "price": "₹1120", "image": "Images/Tandoori Chicken.jpg"},
+        {"name": "Aloo Gobi", "price": "₹700", "image": "Images/Aloo Gobi.jpg"},
+        {"name": "Lamb Vindaloo", "price": "₹1260", "image": "Images/Lamb Vindaloo.jpg"},
+        {"name": "Gulab Jamun", "price": "₹420", "image": "Images/Gulab Jamun.jpg"},
+        {"name": "Naan", "price": "₹210", "image": "Images/Naan.jpg"}
+    ]
+}
