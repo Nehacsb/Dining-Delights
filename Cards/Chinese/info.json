@@ -15,6 +15,6 @@
         {"name": "Egg Foo Young", "price": "₹840", "image": "Images/Egg Foo Young.jpg"},
         {"name": "Wonton Soup", "price": "₹560", "image": "Images/Wonton Soup.jpg"},
         {"name": "Szechuan Shrimp", "price": "₹1120", "image": "Images/Szechuan Shrimp.jpg"},
-        {"name": "General Tso's Chicken", "price": "₹980", "image": "Images/General Tso's Chicken.jpg"}
+        {"name": "General Tso's Chicken", "price": "₹980", "image": "Images/General Tso Chicken.jpg"}
     ]
 }

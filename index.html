@@ -16,9 +16,17 @@
 <body>
     <div class="container flex ">
         <div class="left make_round">
+            <div class="close">
+                <img src="Images/close.svg" alt="close">
+            </div>
             <div class="welcome make_round">
                 <h3>Welcome to the Dining Delights</h3>
                 <p>We are delighted to have you here! Our restaurant offers a delightful array of cuisines from around the globe, prepared with the finest ingredients and utmost care. Whether you crave traditional flavors or contemporary creations, we have something for everyone. Please take a moment to explore our menu and discover your next favorite dish!</p>
+
+            </div>
+            <div class="welcome2">
+                <h3>Welcome to the Dining Delights</h3>
+                <p>Our restaurant offers a delightful array of cuisines from around the globe. Whether you crave traditional flavors or contemporary creations, we have something for everyone. Please take a moment to explore our menu and discover your next favorite dish!</p>
 
             </div>
             <div class="info make_round">
@@ -27,7 +35,7 @@
                     <h3>Today's Special</h3>
                     <div id="specialItemsBox" class="specialFoods"></div>
                 </div>
-                <h3 class="heading">Your Current Items</h3>
+                <h3 class="heading">Your Cart</h3>
                 <div class="current_items make_round">
                     
                     <ul id="currentItemsList"></ul>
@@ -38,48 +46,54 @@
 
         </div>
         <div class="right make_round">
-            <div class="header ">
-                <div class="nav">
-                    <div class="Backbtn">
-                        <button class="back_button" style="display: none;">
-                            <img src="Images/back.svg" alt="">
-                        </button>
+            <div class="menu">
+                <img src="Images/menu.svg" alt="menu">
+
+            </div>
+            <div>
+                <div class="header ">
+                    <div class="nav">
+                        <div class="Backbtn">
+                            <button class="back_button" style="display: none;">
+                                <img src="Images/back.svg" alt="">
+                            </button>
+                        </div>
+                        
+                    </div>
+                    <div class="our_details">
+                        <ul class=" nav_bar flex">
+                            <li>
+                                <span class="text">About Us</span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6 9L11.2929 14.2929C11.6262 14.6262 11.7929 14.7929 12 14.7929C12.2071 14.7929 12.3738 14.6262 12.7071 14.2929L18 9" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                
+                            </li>
+                            <li>
+                                <span class="text">Our Branches</span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6 9L11.2929 14.2929C11.6262 14.6262 11.7929 14.7929 12 14.7929C12.2071 14.7929 12.3738 14.6262 12.7071 14.2929L18 9" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </li>
+                            <li>
+                                <span class="text">Contact Us</span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6 9L11.2929 14.2929C11.6262 14.6262 11.7929 14.7929 12 14.7929C12.2071 14.7929 12.3738 14.6262 12.7071 14.2929L18 9" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </li>
+                        </ul>
                     </div>
                     
+                    <div class="accounts">
+                        <button class="signup">Sign up</button>
+                        <button class="login">Log in</button>
+                    </div>
                 </div>
-                <div class="our_details">
-                    <ul class=" nav_bar flex">
-                        <li>
-                            <span class="text">About Us</span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M6 9L11.2929 14.2929C11.6262 14.6262 11.7929 14.7929 12 14.7929C12.2071 14.7929 12.3738 14.6262 12.7071 14.2929L18 9" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                            
-                        </li>
-                        <li>
-                            <span class="text">Our Branches</span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M6 9L11.2929 14.2929C11.6262 14.6262 11.7929 14.7929 12 14.7929C12.2071 14.7929 12.3738 14.6262 12.7071 14.2929L18 9" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                        </li>
-                        <li>
-                            <span class="text">Contact Us</span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M6 9L11.2929 14.2929C11.6262 14.6262 11.7929 14.7929 12 14.7929C12.2071 14.7929 12.3738 14.6262 12.7071 14.2929L18 9" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                        </li>
-                    </ul>
+                <div class="Menu_box">
+    
+    
+                    <div class="all_cards"></div>
+                    <div class="menu_items" style="display: none;"></div>
+    
+    
                 </div>
-                
-                <div class="accounts">
-                    <button class="signup">Sign up</button>
-                    <button class="login">Log in</button>
-                </div>
-            </div>
-            <div class="Menu_box">
-
-
-                <div class="all_cards"></div>
-                <div class="menu_items" style="display: none;"></div>
-
-
             </div>
         </div>
     </div>

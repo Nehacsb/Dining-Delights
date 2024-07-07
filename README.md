@@ -34,5 +34,5 @@ Automatic calculation and display of the total cost of the selected items.
 #### Back Button: 
 Easy navigation back to the main cuisine selection
 
-<br>
-Improments are being made to make the website responsive to mobile devices. 
+#### Responsive 
+The application is fully responsive, ensuring a smooth experience on all devices.

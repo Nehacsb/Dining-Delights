@@ -40,6 +40,7 @@ async function cuisines() {
         // console.log(element) 
         // element < a href="\Cards\Greek/">Greek/</a>
 
+        //&& !element.href.includes(".htaccess")
 
         if (element.href.includes('/Cards') ) {
             let folder = element.href.split("/").slice(-2)[0]
@@ -259,6 +260,15 @@ async function main() {
     await cuisines() //we wait till all the cuisines are loaded in the page
 
     await SpecialItems();
+
+
+    document.querySelector(".menu").addEventListener("click", () => {
+        document.querySelector(".left").style.left = "0"
+    })
+
+    document.querySelector(".close").addEventListener("click", () => {
+        document.querySelector(".left").style.left = "-130%"
+    })
 
 }
 main()
