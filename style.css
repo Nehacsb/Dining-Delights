@@ -429,18 +429,22 @@ ul li {
     justify-content: center;
 }
 
-.welcome3 h3 {
-    font-size: larger;
-}
+
 
 .welcome2 {
     display: none;
 
 }
+
+
+
 .close{
     display: none;
 }
-@media (max-width: 1144px) {
+
+
+
+@media screen and (max-width: 1144px) {
 
     .container {
         background-image: url('/Images/one.jpg');
@@ -466,12 +470,15 @@ ul li {
         height: 100vh;
     }
 
+    .welcome2 h3 {
+        font-size: larger;
+    }
     .welcome {
         display: none;
     }
 
     .welcome2 {
-        display: block;
+        /* display: block; */
         margin-top: 10px;
         display: flex;
         flex-direction: column;
@@ -502,22 +509,25 @@ ul li {
     .our_details {
         display: none;
     }
-
-    .signup {
-        font-size: 13px;
-        margin: 0px;
-        width: 68px;
-
+    .accounts {
+        display: flex;
+        justify-content: space-between; 
+        align-items: center; 
+        width: 160px; 
     }
 
-    .login {
-        font-size: 13px;
+    .signup, .login {
+        font-size: 5px; 
         margin: 0px;
-        width: 68px;
+        width: 68px; /* Set a fixed width */
+        height: 30px; 
+        padding: 5px; 
+        box-sizing: border-box; /* Ensure padding is included in the width and height */
     }
 
     .header {
         margin-left: 23px;
+        justify-content: space-evenly;
     }
 
     .menu img {

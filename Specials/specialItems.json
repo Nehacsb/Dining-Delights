@@ -2,5 +2,12 @@
     
     {"name": "Caprese Salad", "price": "₹700", "image": "Images/Caprese Salad.jpg"},
     {"name": "Baklava", "price": "₹490", "image": "Images/Baklava.jpg"},
-    {"name": "Cappuccino", "price": "₹210", "image": "Images/Cappuccino.jpg"}
+    {"name": "Kimchi", "price": "₹420", "image": "Images/Kimchi.jpg"},
+    {"name": "Spaghetti Carbonara", "price": "₹980", "image": "Images/Spaghetti Carbonara.jpg"},
+    {"name": "Cappuccino", "price": "₹210", "image": "Images/Cappuccino.jpg"},
+    {"name": "Apple Pie", "price": "₹420", "image": "Images/Apple Pie.jpg"},
+
+    {"name": "Gulab Jamun", "price": "₹420", "image": "Images/Gulab Jamun.jpg"},
+    {"name": "Tiramisu", "price": "₹560", "image": "Images/Tiramisu.jpg"},
+    {"name": "Panna Cotta", "price": "₹490", "image": "Images/Panna Cotta.jpg"}
 ]
